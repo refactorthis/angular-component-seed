@@ -1,0 +1,12 @@
+{
+  "name": "angular-component-seed",
+  "description": "A starter project for a reusable AngularJS bower component. Gulp, karma, jshint & travis out of the box.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/refactorthis/angular-component-seed",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "angular": "1.2.x",
+    "angular-mocks": "~1.2.x"
+  }
+}

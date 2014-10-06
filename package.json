@@ -1,0 +1,33 @@
+{
+  "name": "angular-component-seed",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A starter project for a reusable AngularJS bower component. Gulp, karma, jshint & travis out of the box.",
+  "repository": "https://github.com/refactorthis/angular-component-seed",
+  "license": "MIT",
+  "devDependencies": {
+    "extend": "~2.0.0",
+    "karma": "~0.10",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "bower": "^1.3.1",
+    "shelljs": "^0.2.6",
+    "gulp": "~3.8.8",
+    "gulp-rename": "~1.2.0",
+    "gulp-uglify": "~1.0.1",
+    "gulp-util": "~3.0.1",
+    "gulp-clean": "~0.3.1",
+    "gulp-filesize": "0.0.6",
+    "gulp-concat": "~2.4.1",
+    "gulp-load-plugins": "~0.7.0",
+    "gulp-footer": "~1.0.5",
+    "gulp-header": "~1.1.1",
+    "gulp-jshint": "~1.8.5",
+    "jshint-stylish": "~1.0.0",
+    "gulp-if": "~1.2.5"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "./node_modules/gulp/bin/gulp.js ci"
+  }
+}

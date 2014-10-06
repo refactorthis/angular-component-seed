@@ -1,0 +1,15 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+test_out/
+.DS_Store
+.idea
+
+
+
+
